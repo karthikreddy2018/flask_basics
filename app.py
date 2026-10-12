@@ -35,8 +35,7 @@ def create_table():
             username TEXT NOT NULL,
             age INTEGER NOT NULL,
             city TEXT NOT NULL
-        )
-    """)
+        )""")
 
     conn.commit()
     conn.close()

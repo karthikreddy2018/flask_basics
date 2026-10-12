@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student</title>
+</head>
+<body>
+
+    <h1>Student Details</h1>
+
+    <p>Name: {{ name }}</p>
+    <p>Age: {{ age }}</p>
+    {% if age >= 18 %}
+    <p>you are eligible</p>
+    {% else %}
+    <p>you are not eligible</p>
+    {% endif %}
+
+</body>
+</html>
